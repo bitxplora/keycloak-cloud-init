@@ -10,7 +10,7 @@ Authorization server.
 - `lxc launch ubuntu:jammy keycloak-vm --config=user.user-data="$(cat ./keycloak.yaml)" --vm`
 
 
-### Things to note or adjust to your need:
+### Things to note or adjust to your need before starting:
 - IP or fqhn of the PostgreSQL database to use
 - The database should be in a different vm, this preserves the data. So you can be able to throw keycloak-vm away for a new one, as you iterate.
 - The database name in this config is keycloakdb, ensure it is created.
