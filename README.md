@@ -12,7 +12,7 @@ Authorization server.
 
 ### Things to note or adjust to your need:
 - IP or fqhn of the PostgreSQL database to use
-- The database should be in a different vm, this preserves data. So you can throw keycloak-vm away for a new one.
+- The database should be in a different vm, this preserves the data. So you can be able to throw keycloak-vm away for a new one, as you iterate.
 - The database name in this config is keycloakdb, ensure it is created.
 - The database user, the owner of keycloakdb is keycloak
-- The database password in this config is "password", ensure it matchs that of "keycloak" user above.
+- The database password in this config is "password", ensure it same as that of "keycloak" user above.
