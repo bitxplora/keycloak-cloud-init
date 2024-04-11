@@ -16,3 +16,8 @@ Authorization server.
 - The database name in this config is keycloakdb, ensure it is created.
 - The database user, the owner of keycloakdb is keycloak
 - The database password in this config is "password", ensure it same as that of "keycloak" user above.
+- The KEYCLOAK-ADMIN is "Admin".
+- The KEYCLOAK-ADMIN-PASSWORD is "password".
+- The hostname which is a fqhn, is "auth.xpora.local".
+- You can access the server by the hostname or IP.
+- You can also set the hostname in the /etc/hosts of host system.
