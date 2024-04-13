@@ -18,6 +18,6 @@ Authorization server.
 - The database password in this config is "password", ensure it same as that of "keycloak" user above.
 - The KEYCLOAK-ADMIN is "Admin".
 - The KEYCLOAK-ADMIN-PASSWORD is "password".
-- The hostname which is a fqhn, is "auth.xpora.local".
+- The hostname which is a fqhn, is "login.xpora.local".
 - You can access the server by the hostname or IP.
 - You can also set the hostname in the /etc/hosts of host system.
