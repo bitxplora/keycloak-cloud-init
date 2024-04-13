@@ -75,8 +75,11 @@ runcmd:
   -  echo "db=postgres" >> conf/keycloak.conf 
   -  echo 'db-username=keycloak' >> conf/keycloak.conf 
   -  echo "db-password=password" >> conf/keycloak.conf 
-  -  echo "db-url=jdbc:postgresql://10.35.51.127/keycloakdb" >> conf/keycloak.conf 
-  -  echo "hostname=au.bitstream.local" >> conf/keycloak.conf 
+  -  echo 'db-url-host=10.35.51.70' >> conf/keycloak.conf 
+  -  echo 'db-url-database=keycloakdb' >> conf/keycloak.conf 
+  -  echo 'db-url-port=5432' >> conf/keycloak.conf 
+  # -  echo "db-url=jdbc:postgresql://10.35.51.127/keycloakdb" >> conf/keycloak.conf 
+  -  echo "hostname=login.xplora.local" >> conf/keycloak.conf 
   -  echo "hostname-strict=false" >> conf/keycloak.conf 
   - [ bin/kc.sh, build ]
   - [ bin/kc.sh, start-dev ]
